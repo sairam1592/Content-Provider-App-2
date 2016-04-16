@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+
+    <com.gallery.admin.mygallery.ScaleImageView
+        android:id="@+id/imgView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/buttonLoadPicture" />
+
+    <Button
+        android:id="@+id/buttonLoadPicture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="loadImagefromGallery"
+        android:text="@string/button_load"
+        android:textSize="20dp"
+        android:textColor="#EBEBEB"
+        android:textStyle="bold"
+        android:background="#555353" />
+
+
+</RelativeLayout>

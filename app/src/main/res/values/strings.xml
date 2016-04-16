@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyGallery</string>
+    <string name="app_splash">Splash Screen</string>
+    <string name="app_alert">Alert</string>
+    <string name="button_load">Load Picture</string>
+    <string name="text_alert">Kindly login in Contact Book App to proceed further.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
